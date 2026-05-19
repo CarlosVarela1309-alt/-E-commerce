@@ -70,8 +70,8 @@ aside {
 }
 
 .boton-carrito.active .numero {
-    background-color: var(--clr-white);
-    color: var(--clr-main);
+    background-color: var(--clr-main);
+    color: var(--clr-white);
 }
 
 .boton-menu {
