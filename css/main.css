@@ -62,6 +62,18 @@ aside {
     margin-top: 2rem;
 }
 
+.numero {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: .25rem;
+    border-radius: .25rem;
+}
+
+.boton-carrito.active .numero {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+}
+
 .boton-menu {
     background-color: transparent;
     border: 0;
@@ -151,9 +163,9 @@ main {
     gap: 1.5rem;
 }
 
-.carrito-vacio {
+.carrito-vacio,
+.carrito-comprado {
     color: var(--clr-main);
-    display: none;
 }
 
 .carrito-productos {
@@ -230,3 +242,6 @@ main {
     border-bottom-right-radius: 1rem;
 }
 
+.disabled {
+
+}
